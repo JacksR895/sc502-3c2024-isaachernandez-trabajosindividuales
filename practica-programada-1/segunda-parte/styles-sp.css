@@ -1,0 +1,81 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+nav {
+    background-color: #2674b8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+.perfil {
+    text-align: center;
+    margin: 30px;
+}
+
+.nombre {
+    color: #2674b8;
+}
+
+.especialidad {
+    color: gray;
+}
+
+#descripcion {
+    font-size: 16px;
+}
+
+button {
+    background-color: #2674b8;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #14518a;
+}
+
+.comentarios {
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
