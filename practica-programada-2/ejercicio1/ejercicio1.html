@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1, cargas sociales</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="ejercicio1.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor">
+            <p class="marca">Segunda practica progra</p>
+            <h1>Ejercicio 1, cargas sociales</h1>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section class="tarjeta">
+            <h2>Calcular salario neto</h2>
+            <div class="campo">
+                <label for="salarioBruto">Salario bruto mensual (colones)</label>
+                <input id="salarioBruto" type="number" placeholder="Ej.: 1000000">
+            </div>
+            <button type="button" id="botonCalcular" class="boton boton-primario">Calcular</button>
+            <p id="mensaje" class="mensaje"></p>
+            <p>Cargas sociales CCSS (10,83%): <strong id="cargasSociales">0</strong></p>
+            <p>Impuesto sobre la renta: <strong id="impuestoRenta">0</strong></p>
+            <p>Salario neto: <strong id="salarioNeto">0</strong></p>
+        </section>
+    </main>
+</body>
+</html>
